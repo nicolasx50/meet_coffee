@@ -1,6 +1,12 @@
 body {
     text-align: center;
     color: #000f08;
+    margin: 0;
+}
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 .oscuro {
     background-color: #000f08;
@@ -14,6 +20,7 @@ body {
     text-align: left;
     background: #a4452c;
     color: #ffffff;
+    padding: 50px;
 }
 .hero-section {
     text-align: right;
@@ -22,4 +29,11 @@ body {
     background-size: cover;
     color: #ffffff;
     text-shadow: 2px 3px 2px #707070;
+    padding: 50px 50px 100px 50px;
+}
+section, footer {
+    margin-top: 75px;
+}
+footer {
+    padding: 50px
 }
