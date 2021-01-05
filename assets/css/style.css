@@ -37,3 +37,6 @@ section, footer {
 footer {
     padding: 50px
 }
+.charla-texto, .evento{
+    display: inline-block;
+}
