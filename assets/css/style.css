@@ -2,3 +2,24 @@ body {
     text-align: center;
     color: #000f08;
 }
+.oscuro {
+    background-color: #000f08;
+    color: #ffffff;
+}
+.oscuro a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+}
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 3px 2px #707070;
+}
