@@ -2,11 +2,21 @@ body {
     text-align: center;
     color: #000f08;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 body * {
     margin: 0;
     border: 0;
     padding: 0;
+}
+h1 {
+    font-weight: 800;
+}
+.h2 {
+    font-weight: 700;
+}
+.subtitulo, h4, h5 {
+    font-weight: 400;
 }
 .oscuro {
     background-color: #000f08;
