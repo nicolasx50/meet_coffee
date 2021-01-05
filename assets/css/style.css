@@ -11,12 +11,31 @@ body * {
 }
 h1 {
     font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
 }
-.h2 {
+h2 {
     font-weight: 700;
+    font-size: 2.5em;
 }
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.75em;
+}
+h5 {
+    font-size: 1.25em;
+}
+h3
 .subtitulo, h4, h5 {
     font-weight: 400;
+}
+#ubicacion h2 {
+    margin-bottom: 1em auto;
+}
+.sweet-brown h3, .sweet-brown h5 {
+    margin: 0.5em; /*Aqui se puede ver el ejemplo claro de como los em estan condicionados por el elemento padre*/
 }
 .oscuro {
     background-color: #000f08;
